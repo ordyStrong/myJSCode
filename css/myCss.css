@@ -1,0 +1,183 @@
+
+			body{
+				font-family: "微软雅黑";color: #222222;
+			}
+			.con div{
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			.fl{float: left;}
+			.fr{float: right;}
+			
+			/* 头部 */
+			
+			#toubu{
+				height: 18px;margin-top: 15px;margin-left: 5px;margin-right: 5px
+			}
+			.dhl{
+				height: 100%;width: 65px;
+				float: left;
+				text-align: center;font-size: 13px;
+				/* cursor: pointer; */
+			}
+			.dhr{
+				height: 100%;
+				float:right;width: 70px;
+				text-align: center;font-size: 13px;
+				/* cursor: pointer; */
+			}
+			#dhrimg{
+				width: 100px;height: 100%;
+			}
+			#dhrimg img{height: 14px;}
+			#logo{
+				height: 77px;width:217px;
+				margin: 30px auto;
+				position: relative;left: -40px;
+			}
+			#zhongjian #logo a{
+				display: inline-block;
+				width: 327px;height: 127px;
+			}
+			#zhongjian #logo img{
+				height: 100%;width: 100%;
+			}
+
+			#souso{
+				height: 43px;width: 470px;
+				margin: 20px auto;
+				
+			}
+			
+			#ff{
+				border-color: rgb(80,110,255);
+				border-width: 1px;
+				border-style: solid;
+				border-radius: 8px ;
+				overflow: hidden;
+				position: relative;
+			}
+			#inp1{						
+				height: 40px;width: 400px;				
+				border: none;
+				outline-style: none;
+				padding:0 20px;
+				
+			}
+			#inp2{
+				height: 43px;width: 60px;
+				border: none;
+				color: white;
+				background-color: rgb(80,110,255);	
+				position: absolute;left: 410px;
+				cursor: pointer;
+			}
+			#zhongjian{margin-top: 150px;}
+			
+			 /* 新闻和热搜  */
+			.tuijian{
+				width: 70px;
+				font-size: 14px
+				
+			}
+			
+			#t1,#t2{
+				cursor: pointer;
+				
+			}
+			 
+			#xinwen{
+				margin-left: 100px;
+				margin-top: 100px;
+			}
+			.xinwen-img{
+				overflow: hidden;
+				height: 113px;width: 170px;
+				border-radius: 4px;
+				}
+			
+		.xinwen-3 img{
+			height: 100%px;width: 100%;border-radius: 8px;overflow: hidden;
+		}
+/* 我的关注 */
+
+
+#wdgz{
+	border: #ccc solid 1px;
+	/* margin-left: 150px; */
+	margin-top: 10px;
+	height: 150px;width: 700px;
+	border-radius: 16px;
+	box-shadow: 5px 5px 5px #ccc;
+	
+}
+#wddh-1{
+	height: 23px;
+	margin-top: 10px;
+}
+.dh{
+margin-left: 10px;
+margin-right: 10px;
+}
+#wddh-2 img{height: 100%;width: 100%;}
+#wddh-2 div{
+	height: 44px;width: 44px;
+	overflow: hidden;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 35px;
+	}
+	
+	/* 百度热搜 */
+/* 	#resou{
+		position: fixed;
+		top: 350px;
+		right: 100px;
+	} */
+	#resou{
+		position: absolute;
+		top: 450px;
+		right: 100px;
+	}
+	#rsnr{
+		margin-left: 17px;
+	}
+	
+	#rsnr li{
+		height: 30px;
+		list-style-position: outside;
+		list-style-type: decimal;
+		color: #ccc;
+		
+	}
+	#rsnr li a:hover{
+		text-decoration:underline;
+		/* color: blue; */
+	}
+	#rsnr li:nth-child(1){color:#FF002E ;}
+	#rsnr li:nth-child(2){color:#FF5A00;}
+	#rsnr li:nth-child(3){color:#FFA500;}
+	
+	/* back to up*/
+	#return-l{
+		display: none; 
+		height: 74px;width: 74px;
+		position: absolute;right: 50px;bottom: 34px;
+	}
+	#return-r{
+		width: 42px;
+		overflow: hidden;
+		border-radius: 20px;
+		background-color: #FBFBFB;
+	}
+	.rtup{
+		height: 40px;width: 40px;
+		line-height: 40px;color: #7F7F7F;
+		text-align: center;
+		overflow: hidden;
+		border-radius: 20px;
+		background-color: #FBFBFB;
+	}
+	
